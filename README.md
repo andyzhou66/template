@@ -13,7 +13,7 @@ You'll need the following to run the template. [Homebrew](https://brew.sh/) for 
 * [LyX](https://www.lyx.org/Download) (with instructions for LaTeX) 
     * Add LyX to your PATH for [Windows](http://www.computerhope.com/issues/ch000549.htm), [Mac](http://hathaway.cc/post/69201163472/how-to-edit-your-path-environment-variables-on-mac), and [Linux](http://stackoverflow.com/questions/14637979/how-to-permanently-set-path-on-linux).
     * The beamer theme [`metropolis`](https://github.com/matze/mtheme). This is part of MikTeX since Dec 2014.
-    * You need to install Visual Studio C++ if you use Windows
+* You need to install Visual Studio C++ if you use Windows
 
 ## Quick start
 
