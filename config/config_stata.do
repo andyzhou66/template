@@ -3,7 +3,7 @@ set more off
 
 program main
     * *** Add required packages from SSC to this list ***
-    local ssc_packages ""
+    local ssc_packages "package1" "package2"
     * *** Add required packages from SSC to this list ***
 
     if !missing("`ssc_packages'") {
@@ -12,7 +12,7 @@ program main
             capture which `pkg'
             if _rc == 111 {                 
                dis "Installing `pkg'"
-               quietly ssc install `pkg', replace
+                ssc install `pkg', replace
                }
         }
     }
